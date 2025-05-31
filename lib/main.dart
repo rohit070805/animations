@@ -2,6 +2,7 @@
 
 import 'package:animations/example1.dart';
 import 'package:animations/example2.dart';
+import 'package:animations/example3.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrangeAccent),
       ),
-      home: const Example2(),
+      home: const Example3(),
     );
   }
 }
