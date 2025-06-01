@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:math' show pi;
 import 'package:vector_math/vector_math_64.dart' show Vector3;
-const widthAndHeight = 100.0;
+const widthAndHeight = 120.0;
 
 class Example3 extends StatefulWidget {
   const Example3({Key? key}) : super(key: key);
