@@ -96,7 +96,7 @@ class DetailsPage extends StatelessWidget {
                         end: 1.0,
                       ).chain(
                         CurveTween(
-                          curve: Curves.slowMiddle,
+                          curve: Curves.decelerate,
                         ),
                       ),
                     ),
